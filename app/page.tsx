@@ -11,6 +11,7 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Certificate from "@/components/Certificate";
+import Competition from "@/components/Competition";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <Experience />
         <Approach />
         <Certificate />
+        <Competition />
         <Footer />
       </div>
     </main>

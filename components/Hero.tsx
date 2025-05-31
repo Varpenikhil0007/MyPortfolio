@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/MYRESUME1.pdf"; // Path to your PDF file
+    link.href = "/Nikhil_Varpe_8329111686[1F].pdf"; // Path to your PDF file
     link.download = "NikhilVarpeResume.pdf"; // The file name for download
     link.click();
   };
