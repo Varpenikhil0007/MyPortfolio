@@ -7,7 +7,8 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   const handleResumeDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Nikhil_Varpe_8329111686[1F].pdf"; // Path to your PDF file
+    link.href =
+      "https://drive.google.com/file/d/19ttclBDkRRktpiHfvUInLiEfOFS3rxEP/view?usp=sharing"; // Path to your PDF file
     link.download = "NikhilVarpeResume.pdf"; // The file name for download
     link.click();
   };
